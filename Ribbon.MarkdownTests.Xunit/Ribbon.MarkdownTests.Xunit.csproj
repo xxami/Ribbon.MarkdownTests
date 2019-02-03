@@ -1,8 +1,18 @@
-<Project Sdk="Microsoft.NET.Sdk">
+﻿<Project Sdk="Microsoft.NET.Sdk">
 
     <PropertyGroup>
         <TargetFramework>netcoreapp2.1</TargetFramework>
         <LangVersion>latest</LangVersion>
+		<IsPackable>true</IsPackable>
+        <GeneratePackageOnBuild>false</GeneratePackageOnBuild>
+        <Version>0.1.0</Version>
+        <Company>Ribbon</Company>
+        <Authors>lilah</Authors>
+        <RepositoryUrl>github.com/xxami/Ribbon.MarkdownTests</RepositoryUrl>
+        <Description>Use markdown codeblocks as source for unit test input data</Description>
+        <Copyright></Copyright>
+        <PackageProjectUrl>github.com/xxami/Ribbon.MarkdownTests</PackageProjectUrl>
+        <Product>Ribbon.MarkdownTests</Product>
     </PropertyGroup>
 
     <ItemGroup>
