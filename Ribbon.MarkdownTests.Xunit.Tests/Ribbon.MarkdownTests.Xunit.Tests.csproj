@@ -18,4 +18,16 @@
       <ProjectReference Include="..\Ribbon.MarkdownTests.Xunit\Ribbon.MarkdownTests.Xunit.csproj" />
     </ItemGroup>
 
+    <ItemGroup>
+      <None Update="Examples\example_1.md">
+        <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      </None>
+      <None Update="Examples\example_2.md">
+        <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      </None>
+      <None Update="Examples\example_3.md">
+        <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      </None>
+    </ItemGroup>
+
 </Project>

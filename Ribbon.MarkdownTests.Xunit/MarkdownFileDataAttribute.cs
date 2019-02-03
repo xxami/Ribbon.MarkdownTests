@@ -49,7 +49,7 @@ namespace Ribbon.MarkdownTests.Xunit
                     result.Add(new object [] {testCase.Contents});
                 }
             }
-            
+
             return result;
         }
     }
