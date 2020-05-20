@@ -1,25 +1,27 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
 
     <PropertyGroup>
-        <TargetFramework>netcoreapp2.1</TargetFramework>
+        <TargetFramework>netstandard2.1</TargetFramework>
         <LangVersion>latest</LangVersion>
         <IsPackable>true</IsPackable>
         <GeneratePackageOnBuild>false</GeneratePackageOnBuild>
-        <Version>0.1.0</Version>
+        <Version>0.1.1</Version>
         <Company>Ribbon</Company>
         <Authors>lilah</Authors>
-        <RepositoryUrl>github.com/xxami/Ribbon.MarkdownTests</RepositoryUrl>
+        <RepositoryUrl>http://github.com/xxami/Ribbon.MarkdownTests/</RepositoryUrl>
         <Description>Use markdown codeblocks as source for unit test input data</Description>
         <Copyright></Copyright>
-        <PackageProjectUrl>github.com/xxami/Ribbon.MarkdownTests</PackageProjectUrl>
+        <PackageProjectUrl>http://github.com/xxami/Ribbon.MarkdownTests/</PackageProjectUrl>
         <Product>Ribbon.MarkdownTests</Product>
+        <ApplicationIcon />
+        <OutputType>Library</OutputType>
+        <IsTestProject>false</IsTestProject>
+        <StartupObject />
     </PropertyGroup>
 
     <ItemGroup>
-      <PackageReference Include="Markdig" Version="0.15.4" />
-        <PackageReference Include="Microsoft.NET.Test.Sdk" Version="15.8.0" />
-        <PackageReference Include="xunit" Version="2.4.1" />
-        <PackageReference Include="xunit.runner.visualstudio" Version="2.4.1" />
+      <PackageReference Include="Markdig" Version="0.20.0" />
+      <PackageReference Include="xunit" Version="2.4.1" />
     </ItemGroup>
 
 </Project>

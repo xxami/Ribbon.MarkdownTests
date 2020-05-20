@@ -1,4 +1,5 @@
 using Xunit;
+using Ribbon.MarkdownTests.Xunit;
 
 namespace Ribbon.MarkdownTests.Xunit.Tests
 {
